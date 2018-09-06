@@ -31,7 +31,7 @@ public class BudgetController {
         this.budgetService = budgetService;
         this.userService = userService;
     }
-//
+
     @GetMapping("/add")
     public String add(Model model) {
         model.addAttribute("budget", new Budget());
